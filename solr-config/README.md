@@ -8,12 +8,12 @@ The twitter specific fields are added in the tweet_schema_configs (see tweets_sc
 Start the Solr server
 
 ```
-$ bin/solr start
+SOLR_HOME $ bin/solr start
 ```
 
 Create the tweets core
 
 ```
-bin/solr create_core -c tweets -d path_to_tweets_schema_configs
+SOLR_HOME bin/solr create_core -c tweets -d path_to_tweets_schema_configs
 ```
 
