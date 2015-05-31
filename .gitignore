@@ -1,0 +1,8 @@
+.idea
+*.iml
+target
+*.log
+.settings
+.project
+.classpath
+solr-tweets-importer/twitter-auth.properties
