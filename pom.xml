@@ -29,6 +29,7 @@
         <module>solr-tweets-importer</module>
         <module>solr-domain</module>
         <module>solr-service</module>
+        <module>solr-contract</module>
     </modules>
 
     <dependencyManagement>
