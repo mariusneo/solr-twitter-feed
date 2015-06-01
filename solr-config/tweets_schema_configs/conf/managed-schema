@@ -121,7 +121,7 @@
 
 
     <!-- Tweet specific fields -->
-    <field name="name" type="text_general" indexed="true" stored="true"/>
+    <field name="text" type="text_general" indexed="true" stored="true"/>
     <field name="created_at" type="date" indexed="true"  stored="true"/>
     <field name="source" type="text_general" indexed="true" stored="true"/>
     <field name="in_reply_to_status_id" type="long" indexed="true" stored="true"/>
