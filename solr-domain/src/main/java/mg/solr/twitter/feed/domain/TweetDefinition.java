@@ -35,5 +35,5 @@ public interface TweetDefinition {
     String USER_FAVORITES_COUNT_FIELD_NAME = "user_favorites_count";
     String USER_LANGUAGE_FIELD_NAME = "user_language";
 
-    String LANGUAGE_FIELD_NAME = "lang";
+    String LANGUAGE_FIELD_NAME = "language";
 }
