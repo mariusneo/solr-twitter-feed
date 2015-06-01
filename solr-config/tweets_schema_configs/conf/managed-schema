@@ -121,35 +121,36 @@
 
 
     <!-- Tweet specific fields -->
-    <field name="text" type="text_general" indexed="true" stored="true"/>
+    <field name="text" type="string" indexed="true" stored="true"/>
     <field name="created_at" type="date" indexed="true"  stored="true"/>
-    <field name="source" type="text_general" indexed="true" stored="true"/>
+    <field name="source" type="string" indexed="true" stored="true"/>
     <field name="in_reply_to_status_id" type="long" indexed="true" stored="true"/>
     <field name="in_reply_to_user_id" type="long" indexed="true" stored="true" />
+    <field name="in_reply_to_screen_name" type="string" indexed="true" stored="true" />
     <field name="location" type="location" indexed="true" stored="true"/>
-    <field name="place_name" type="text_general" indexed="true" stored="true"/>
-    <field name="place_street_address" type="text_general" indexed="true" stored="true"/>
-    <field name="place_country_code" type="text_general" indexed="true" stored="true" />
+    <field name="place_name" type="string" indexed="true" stored="true"/>
+    <field name="place_street_address" type="string" indexed="true" stored="true"/>
+    <field name="place_country_code" type="string" indexed="true" stored="true" />
     <field name="place_id" type="string" indexed="true" stored="true"/>
-    <field name="place_type" type="text_general" indexed="true" stored="true" />
-    <field name="place_full_name" type="text_general" indexed="true" stored="true"/>
+    <field name="place_type" type="string" indexed="true" stored="true" />
+    <field name="place_full_name" type="string" indexed="true" stored="true"/>
     <field name="favorited" type="boolean" indexed="true" stored="true"/>
     <field name="retweeted" type="boolean" indexed="true" stored="true"/>
     <field name="favorite_count" type="int" indexed="true" stored="true"/>
     <field name="retweet_count" type="int" indexed="true" stored="true"/>
     <field name="retweet" type="boolean" indexed="true" stored="true"/>
-    <field name="language" type="text_general" indexed="true" stored="true"/>
+    <field name="language" type="string" indexed="true" stored="true"/>
     <field name="user_id" type="long" indexed="true" stored="true"/>
-    <field name="user_name" type="text_general" indexed="true" stored="true"/>
-    <field name="user_screen_name" type="text_general" indexed="true" stored="true"/>
-    <field name="user_description" type="text_general" indexed="true" stored="true"/>
+    <field name="user_name" type="string" indexed="true" stored="true"/>
+    <field name="user_screen_name" type="string" indexed="true" stored="true"/>
+    <field name="user_description" type="string" indexed="true" stored="true"/>
     <field name="user_profile_image_url" type="string" indexed="true" stored="true"/>
     <field name="user_mini_profile_image_url" type="string" indexed="true" stored="true"/>
     <field name="user_followers_count" type="int" indexed="true" stored="true"/>
     <field name="user_friends_count" type="int" indexed="true" stored="true"/>
     <field name="user_created_at" type="date" indexed="true" stored="true"/>
     <field name="user_favorites_count" type="int" indexed="true" stored="true"/>
-    <field name="user_language" type="text_general" indexed="true" stored="true"/>
+    <field name="user_language" type="string" indexed="true" stored="true"/>
  
 
 	
